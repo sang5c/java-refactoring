@@ -24,5 +24,6 @@ class CustomerTest {
         customer.addRental(rental3);
 
         System.out.println(customer.statement());
+        System.out.println(customer.htmlStatement());
     }
 }
